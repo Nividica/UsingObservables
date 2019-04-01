@@ -1,0 +1,38 @@
+{
+  "name": "usingobservables",
+  "version": "1.0.0",
+  "description": "RxJs Challenges",
+  "main": "main.js",
+  "directories": {},
+  "scripts": {
+    "build": "webpack",
+    "build-prod": "webpack --config webpack.prod.js",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nividica/UsingObservables"
+  },
+  "keywords": [
+    "RxJs",
+    "Observable"
+  ],
+  "author": "Chris McGhee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nividica/UsingObservables/issues"
+  },
+  "homepage": "https://github.com/Nividica/UsingObservables#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.2",
+    "ts-loader": "^5.3.1",
+    "tslint": "^5.12.0",
+    "typescript": "^3.2.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.2.3",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "rxjs": "^6.4.0"
+  }
+}

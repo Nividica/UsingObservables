@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "sourceMap": true,
+    "inlineSourceMap": false,
+    "inlineSources": false,
+    "noImplicitAny": true,
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es6",
+    "allowJs": false,
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "declaration": false,
+    "strict": true,
+    "removeComments": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": false,
+    "noEmitOnError": true,
+    "typeRoots": [
+      "../node_modules/@types"
+    ]
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "dist/**/*",
+    "node_modules"
+  ]
+}
