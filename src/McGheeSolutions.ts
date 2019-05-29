@@ -1,9 +1,9 @@
 // tslint:disable:no-duplicate-imports
 // import { from, concat, merge, zip, forkJoin, of, race } from 'rxjs';
-// import { switchMap, filter, map, pairwise, take, startWith, scan } from 'rxjs/operators';
+// import { switchMap, filter, map, pairwise, take, startWith, scan, mapTo } from 'rxjs/operators';
 
 import { Observable, from as o2, concat as o5, merge as o8, zip as o6, forkJoin as o7, of as o11, race as o10 } from 'rxjs';
-import { switchMap as o1, filter as o3, map as o4, pairwise as o9, take as o12, startWith as o13, scan as o14 } from 'rxjs/operators';
+import { switchMap as o1, filter as o3, map as o4, pairwise as o9, take as o12, startWith as o13, scan as o14, mapTo as o15 } from 'rxjs/operators';
 
 import { IUserBasic, IUserAuth, IUserProfile, IUserSocial, IUserObject, AlertOp, ReunionNames } from './DataTypes';
 
@@ -59,7 +59,7 @@ export namespace McGheeSolutions {
    * Hint: filter, map, race, take
    */
   export const koAesop: Handler2<number, number, string> = (z1, z2) => o10(z2
-    .pipe(o3((x) => !x), o4(() => 'Tortoise')), z1.pipe(o3((x) => !x), o4(() => 'Hare')))
+    .pipe(o3((x) => !x), o15('Tortoise')), z1.pipe(o3((x) => !x), o15('Hare')))
     .pipe(o12(1));
 
   /**
