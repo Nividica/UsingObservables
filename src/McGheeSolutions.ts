@@ -56,7 +56,7 @@ export namespace McGheeSolutions {
     .pipe(o9(), o4(([p, c]) => p + c));
 
   /**
-   * Hint: filter, map, race, take
+   * Hint: filter, mapTo, race, take
    */
   export const koAesop: Handler2<number, number, string> = (z1, z2) => o10(z2
     .pipe(o3((x) => !x), o15('Tortoise')), z1.pipe(o3((x) => !x), o15('Hare')))
